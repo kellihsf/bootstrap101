@@ -1,0 +1,28 @@
+body {
+    background-color: aquamarine;
+}
+/* Most smart phones min width: 320px  max-width: 480px color: green  */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    body {
+        background-color: green;
+    }
+}
+
+/* low resolution tablets  min width: 481px  max-width: 767px 
+color: orange  */
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+    body {
+        background-color: orange;
+    }
+}
+
+/* // high resolution computers  min width: 1281px  color: purple   */
+
+@media screen and (min-width: 1281px) {
+    body {
+        background-color: purple;
+    }
+}
+
+
